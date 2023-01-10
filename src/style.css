@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  flex: 5;
+  border-radius: 30px;
+}
+
+.img {
+  border-radius: 30px;
+  margin: 10px;
+  -webkit-transition: all 700ms ease-in;
+}
